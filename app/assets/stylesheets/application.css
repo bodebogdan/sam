@@ -21,9 +21,8 @@ body {
   background-size: cover;
 }
 #index-header{
-	background-color: #18074d;
-	opacity: 0.8;
+	background: rgba(24,7,77,0.6);
 }
 #index-color{
-	background-color: #18074d;
+	background: rgba(24,7,77,0);
 }
