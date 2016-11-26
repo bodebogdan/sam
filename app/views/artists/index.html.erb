@@ -10,7 +10,7 @@
           <%= link_to artist, class: "poster" do %>
             <%= image_tag artist.image.url(:thumb) %>
           <% end %>
-          <div class="artist-info ell glassy-bg padmy padlx">
+          <div class="artist-info ell glassy-bg padmy padlx"  style="max-width: 150px!important">
             <div class="artist-card ">
               <h6><%= artist.name %> <span>(<%= artist.instrument %>)</span></h6>
             </div>            

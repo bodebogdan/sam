@@ -1,13 +1,14 @@
 // Index page style
-.artiss-grid {
-  .artis-card {
-    width:220px;
+.artist-grid {
+  .artist-card {
     margin:auto;
     .poster img {
       height: 325px;
       width:100%;
     }
-    .artis-info {
+    .artist-info {
+
+       max-width: 150px!important;
       .title { height: 4em; }
     }
   }

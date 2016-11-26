@@ -20,3 +20,10 @@ body {
   background: url("/images/index_bg.png") no-repeat;  
   background-size: cover;
 }
+#index-header{
+	background-color: #18074d;
+	opacity: 0.8;
+}
+#index-color{
+	background-color: #18074d;
+}
