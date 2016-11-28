@@ -16,23 +16,15 @@
 //= require turbolinks
 //= require_tree .
 //= require owl.carousel
-$(function(){ $(document).ready(function(){
-	owlCarousel({
-			    items:5,
-			    loop:true,
-			    margin:10,
-			    autoplay:true,
-			    autoplayTimeout:1000,
-			    autoplayHoverPause:true
-				});
-	});
- });
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:5,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true
-});
+(function ($) {
+  $(document).ready(function() {
+	  $('.owl-carousel').owlCarousel({
+	    items:5,
+	    loop:true,
+	    margin:10,
+	    autoplay:true,
+	    autoplayTimeout:1000,
+	    autoplayHoverPause:true
+    });
+  });
+})(jQuery);
