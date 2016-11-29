@@ -22,9 +22,10 @@
 	    items:5,
 	    loop:true,
 	    margin:10,
-	    autoplay:true,
-	    autoplayTimeout:1000,
+	    autoPlay:true,
+	    autoplayTimeout:500,
 	    autoplayHoverPause:true
     });
+
   });
 })(jQuery);
