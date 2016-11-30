@@ -18,7 +18,23 @@
   <%= render "layouts/header" %>
 
   <%= render "layouts/alerts" %>
-
+  <div id="index-header">
+    <div class="container">
+        <img alt="SAM" src="/images/main_logo.png">
+        <p class="header-p" >
+        &nbsp&nbsp&nbsp&nbsp&nbspSocial Artist Management
+        <br>
+        Supporting your classical music
+        </p>
+        <span class="header-span">Registration Fee / Basic Cost ￥0</span>
+        <img width="174" alt="アーティストの方はこちらから" src="images/main_artist_button_eng.png">
+      </div>
+      <div class="count">
+        <img width="25%" alt="登録者数" src="images/main_count_eng.png">
+      </div>
+      <div id="triangle"> </div>
+    </div>
+  </div>
   <div id="main-content" class="row full-min-height">
     <%= yield %>
   </div>
