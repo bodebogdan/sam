@@ -19510,7 +19510,7 @@ if (typeof Object.create !== "function") {
 	    loop:true,
 	    margin:10,
 	    autoPlay:true,
-	    autoplayTimeout:500,
+	    autoplayTimeout:1000,
 	    autoplayHoverPause:true
     });
 
