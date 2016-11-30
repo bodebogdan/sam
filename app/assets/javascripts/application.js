@@ -23,9 +23,23 @@
 	    loop:true,
 	    margin:10,
 	    autoPlay:true,
-	    autoplayTimeout:1000,
-	    autoplayHoverPause:true
+	    autoPlayTimeout:100,
+	    autoPlayHoverPause:true
     });
 
   });
 })(jQuery);
+
+
+$(function(){
+    "use strict";
+	var artist_tab = $('#artist_tab div');
+	var artist_form = $('.artist_form');
+	artist_tab.on('click', function(){
+		var target = $(this).attr("href");
+		artist_form.addClass('hide');
+		$(target).removeClass('hide');
+	});
+});
+
+
