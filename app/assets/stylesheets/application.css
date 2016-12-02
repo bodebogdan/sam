@@ -81,6 +81,7 @@ body {
 #page1 {
 	background-color: #EFEFF0;
 	line-height: 2.5;
+	overflow-x:hidden;
 }
 #page1 h3 {
 	position: relative;

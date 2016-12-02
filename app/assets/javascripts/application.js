@@ -25,6 +25,9 @@
 	    margin:10,
 	    autoPlay:1000,
     	autoplayHoverPause:true,
+    	    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
       });
       $('.carousel').hover(function() {
       owl.trigger('owl.stop');
