@@ -71,13 +71,13 @@
 
 
 <h4 class="column">Featured Artists</h4>
-<div class="owl-carousel">
+<div class="carousel">
    <%  @artists.each do |artist| %>
        <div class="artist-card ">
           <%= link_to artist, class: "poster" do %>
             <%= image_tag artist.image.url(:thumb) %>
           <% end %>
-          <div class="artist-info ell glassy-bg padmy padlx"  style="max-width: 150px!important">
+          <div class="artist-info ell glassy-bg padmy padlx">
             <div class="artist-card ">
               <h6><%= artist.name %> <span>(<%= artist.instrument %>)</span></h6>
             </div>            
@@ -95,16 +95,16 @@
     <ul class="faq_box">
       <li>
        <h3>Question</h3>
-        <p>dummydummydummydummydummydummydummydummydummydummy</p>
+        <p>dummydummydummydummydummy dummydummyd ummydummydummy</p>
+      </li>
+      <li>
+        <h3>Question</h3> 
+        <p>dummydummydumm ydummydummydummyd ummydummydumm ydummy</p>
       </li>
       <li>
         <h3>Question</h3>
-        <p>dummydummydummydummydummydummydummydummydummydummy</p>
-      </li>
-      <li>
-        <h3>Question</h3>
-       <p>dummydummydummydummydummydummydummydummydummydummy</p>
-      </li>
+       <p>dummydummydummyd ummydummyd ummydummydu mmydummy dummy</p>
+      </li> 
     </ul>
   </div>
 </div>
@@ -130,7 +130,7 @@
       <p>
        Agree to our <a href="" style="color: #f7ee13">Terms of service</a> and
       </p>
-      <a href="register.html"><button style="background-color: #eee; padding: 5px 20px">Sign Up</button></a>
+      <a href="register.html"><button class="sign-in-button">Sign Up</button></a>
      </div>
    </div>
    <div id="artist_login" class="artist_form hide">

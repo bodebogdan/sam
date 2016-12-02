@@ -18,15 +18,28 @@
 //= require owl.carousel
 (function ($) {
   $(document).ready(function() {
-	  $('.owl-carousel').owlCarousel({
+  	if ($('.carousel .owl-wrapper-outer').length === 0) {
+	  var owl = $('.carousel').owlCarousel({
 	    items:5,
 	    loop:true,
 	    margin:10,
-	    autoPlay:true,
-	    autoPlayTimeout:100,
-	    autoPlayHoverPause:true
+	    autoPlay:1000,
+    	autoplayHoverPause:true,
+      });
+      $('.carousel').hover(function() {
+      owl.trigger('owl.stop');
+    }, function(){
+    	owl.trigger('owl.play', 1000);
     });
-
+    }
+    $(window).scroll(function (){
+	var nav = $('.sam-nav');
+	  if($(window).scrollTop() > 760) {
+		nav.addClass('nav-white');
+	  } else {
+		nav.removeClass('nav-white');
+	  }
+	});
   });
 })(jQuery);
 

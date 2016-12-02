@@ -20,7 +20,8 @@ body {
   background: url("/images/index_bg.png") no-repeat fixed;  
   background-size: cover;
   font-family: "niveau-grotesk","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-    font-weight: 500;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 #index-header{
 	background: rgba(24,7,77,0.8);
@@ -63,7 +64,7 @@ body {
 #triangle {
     background: rgba(0, 0, 0, 0) url("/images/main_triangle.png") repeat scroll 0 0 / cover ;
     height: 13px;
-    margin-top: 30px;
+    margin: 30px auto 0;
     width: 30px;
 }
 .count {
@@ -87,6 +88,9 @@ body {
 	text-align: center;
 	height: 50px;
 }
+#page1 p {
+	text-align: center;
+}
 
 #page1 h3::before {
 	display: block;
@@ -104,7 +108,7 @@ body {
 }
 
 #page1 h3 div {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -126,14 +130,15 @@ body {
 }
 
 #page1 ul li {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	width: 46%;
+	line-height: 49px;
 	display: flex;
 	color: #B65338;
 	border: 2px solid #B65338;
 	margin: 10px 2%;
-	padding: 10px 2%;
+	padding: 10px 2% 10px 75px;
 	align-items: center;
 	justify-content: center;
 	position: relative;
@@ -235,6 +240,10 @@ body {
 	color: #FFFFFF;
 	background-color: #595656;
 }
+#page3 h3, #page3 h2{
+	color: #FFFFFF;
+	background-color: #595656;
+}
 
 #page3 ul.faq_box {
 	padding-left: 0;
@@ -319,6 +328,11 @@ body {
 .hide {
 	display: none;
 	}
+.sign-in-button{
+	background-color: #eee; 
+	color: #180477;
+	padding: 5px 20px
+}
 #page5 {
 	background: url("/images/notice_bg.png") #595656;
 	background-size: cover;
