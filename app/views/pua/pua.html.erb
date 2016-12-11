@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) : "SAM" %></title>
+
+    <%= stylesheet_link_tag    "application" %>
+    <%= stylesheet_link_tag    "sam" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= javascript_include_tag 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body >
+
+  <%= render "layouts/header" %>
+
+  <%= render "layouts/alerts" %>
+
+  <h4 class="column">Featured Artists</h4>
+<div class="carousel">
+   <%  @artists.each do |artist| %>
+       <div class="artist-card ">
+          <%= link_to artist, class: "poster" do %>
+            <%= image_tag artist.image.url(:thumb) %>
+          <% end %>
+          <div class="artist-info ell glassy-bg padmy padlx">
+            <div class="artist-card ">
+              <h6><%= artist.name %> <span>(<%= artist.instrument %>)</span></h6>
+            </div>            
+          </div>
+        </div>
+    <% end %>
+</div>
+<br>
+<footer >
+    
+  </footer>
+  
+</body>
+</html>

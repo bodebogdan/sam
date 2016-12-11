@@ -1,17 +1,17 @@
-/* line 3, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/artists.css.scss */
+/* line 3, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/artists.css.scss */
 .artist-grid .artist-card {
   margin: auto;
 }
-/* line 5, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/artists.css.scss */
+/* line 5, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/artists.css.scss */
 .artist-grid .artist-card .poster img {
   height: 325px;
   width: 100%;
 }
-/* line 9, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/artists.css.scss */
+/* line 9, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/artists.css.scss */
 .artist-grid .artist-card .artist-info {
   max-width: 150px !important;
 }
-/* line 12, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/artists.css.scss */
+/* line 12, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/artists.css.scss */
 .artist-grid .artist-card .artist-info .title {
   height: 4em;
 }
@@ -10051,366 +10051,366 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 3, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 3, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .full-min-height {
   min-height: 74%;
 }
 
-/* line 5, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 5, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .ell {
   overflow: hidden;
 }
 
-/* line 6, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 6, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .clear {
   clear: both;
 }
 
-/* line 8, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 8, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .glassy-bg {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 9, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 9, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .primary-bg {
   background-color: #B18806;
 }
 
-/* line 13, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 13, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .block {
   display: block;
 }
 
-/* line 14, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 14, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 17, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 17, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .radius-box {
   border-radius: 10px;
 }
 
-/* line 21, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 21, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .radius-ls {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
 }
 
-/* line 25, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 25, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .radius-rs {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
 
-/* line 30, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 30, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .radius-l1 {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
 
-/* line 34, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 34, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .radius-r1 {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-/* line 40, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 40, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .m0 {
   margin: 0;
 }
 
-/* line 41, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 41, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mt0 {
   margin-top: 0;
 }
 
-/* line 42, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 42, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mr0 {
   margin-right: 0;
 }
 
-/* line 43, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 43, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mb0 {
   margin-bottom: 0;
 }
 
-/* line 44, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 44, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .ml0 {
   margin-left: 0;
 }
 
-/* line 46, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 46, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .ms {
   margin: 0.25em;
 }
 
-/* line 47, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 47, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mts {
   margin-top: 0.25em;
 }
 
-/* line 48, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 48, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mbs {
   margin-bottom: 0.25em;
 }
 
-/* line 49, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 49, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mrs {
   margin-right: 0.25em;
 }
 
-/* line 50, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 50, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mls {
   margin-left: 0.25em;
 }
 
-/* line 52, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 52, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mm {
   margin: 0.5em;
 }
 
-/* line 53, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 53, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mtm {
   margin-top: 0.5em;
 }
 
-/* line 54, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 54, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mbm {
   margin-bottom: 0.5em;
 }
 
-/* line 55, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 55, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mrm {
   margin-right: 0.5em;
 }
 
-/* line 56, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 56, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mlm {
   margin-left: 0.5em;
 }
 
-/* line 58, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 58, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .m1 {
   margin: 1.5em;
 }
 
-/* line 59, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 59, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mt1 {
   margin-top: 1.5em;
 }
 
-/* line 60, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 60, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mb1 {
   margin-bottom: 1.5em;
 }
 
-/* line 61, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 61, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mr1 {
   margin-right: 1.5em;
 }
 
-/* line 62, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 62, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .ml1 {
   margin-left: 1.5em;
 }
 
-/* line 64, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 64, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .m2 {
   margin: 3em;
 }
 
-/* line 65, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 65, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mt2 {
   margin-top: 3em;
 }
 
-/* line 66, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 66, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mb2 {
   margin-bottom: 3em;
 }
 
-/* line 67, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 67, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .mr2 {
   margin-right: 3em;
 }
 
-/* line 68, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 68, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .ml2 {
   margin-left: 3em;
 }
 
-/* line 71, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 71, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .p0 {
   padding: 0;
 }
 
-/* line 72, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 72, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pt0 {
   padding-top: 0;
 }
 
-/* line 73, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 73, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pr0 {
   padding-right: 0;
 }
 
-/* line 74, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 74, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pb0 {
   padding-bottom: 0;
 }
 
-/* line 75, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 75, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pl0 {
   padding-left: 0;
 }
 
-/* line 77, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 77, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .ps {
   padding: 0.25em;
 }
 
-/* line 78, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 78, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pts {
   padding-top: 0.25em;
 }
 
-/* line 79, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 79, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pbs {
   padding-bottom: 0.25em;
 }
 
-/* line 80, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 80, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .prs {
   padding-right: 0.25em;
 }
 
-/* line 81, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 81, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pls {
   padding-left: 0.25em;
 }
 
-/* line 83, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 83, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pm {
   padding: 0.5em;
 }
 
-/* line 84, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 84, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .ptm {
   padding-top: 0.5em;
 }
 
-/* line 85, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 85, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pbm {
   padding-bottom: 0.5em;
 }
 
-/* line 86, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 86, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .prm {
   padding-right: 0.5em;
 }
 
-/* line 87, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 87, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .plm {
   padding-left: 0.5em;
 }
 
-/* line 89, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 89, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .p1 {
   padding: 1em;
 }
 
-/* line 90, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 90, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pt1 {
   padding-top: 1em;
 }
 
-/* line 91, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 91, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pr1 {
   padding-right: 1em;
 }
 
-/* line 92, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 92, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pb1 {
   padding-bottom: 1em;
 }
 
-/* line 93, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 93, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pl1 {
   padding-left: 1em;
 }
 
-/* line 95, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 95, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .p2 {
   padding: 2em;
 }
 
-/* line 96, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 96, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pt2 {
   padding-top: 2em;
 }
 
-/* line 97, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 97, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pr2 {
   padding-right: 2em;
 }
 
-/* line 98, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 98, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pb2 {
   padding-bottom: 2em;
 }
 
-/* line 99, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 99, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pl2 {
   padding-left: 2em;
 }
 
-/* line 102, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 102, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .pads {
   padding: 0.25em;
 }
 
-/* line 105, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 105, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padm {
   padding: 0.5em;
 }
 
-/* line 108, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 108, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padl {
   padding: 1em;
 }
 
-/* line 111, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 111, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padsx {
   padding-left: .25em;
   padding-right: .25em;
 }
 
-/* line 117, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 117, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padmx {
   padding-left: .5em;
   padding-right: .5em;
 }
 
-/* line 123, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 123, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padlx {
   padding-left: 1em;
   padding-right: 1em;
 }
 
-/* line 129, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 129, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padsy {
   padding-top: .25em;
   padding-bottom: .25em;
 }
 
-/* line 135, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 135, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padmy {
   padding-top: .5em;
   padding-bottom: .5em;
 }
 
-/* line 141, /home/bode/Desktop/Sam2/Sam/app/assets/stylesheets/helpers.scss */
+/* line 141, /home/bode/Desktop/sam git/sam/app/assets/stylesheets/helpers.scss */
 .padly {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -10464,7 +10464,128 @@ body {
 
 }
 .top-bar-section ul li{
+	background: none;
 	margin: 0 5px !important;
+}
+
+.artist-info{
+	max-width: 150px;
+}
+.nav-white {
+	background: #fff;
+}
+span.logo {
+	display: block;
+	width: 122px;
+	height: 25px;
+	background: url('/images/nav_logo_white.png') no-repeat;
+	background-size: 122px auto;
+}
+.nav-white span.logo {
+	background: url('/images/nav_logo.png') no-repeat;
+	background-size: 122px auto;
+}
+a.logo {
+	margin-top: 13px;
+}
+.nav-white .top-bar-section ul li > a {
+	color: #000;
+}
+.nav-white .top-bar-section ul li:not(.has-form) a:not(.button):hover {
+	color:#180477;
+	border-color: #180477 ;
+}
+/*
+
+
+
+ */
+
+.session-body {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #18074d 0%, #3b4d9f 30%, #18074d 100%) repeat scroll 0 0;
+  font-family: "niveau-grotesk","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+#index-header{
+  background: rgba(24,7,77,0.8);
+  z-index: 998;
+}
+#index-color{
+  background: rgba(24,7,77,0);
+}
+.sam-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+
+#profile_container {
+	display: flex;
+	width: 100%;
+	max-width: 1080px;
+	margin: 30px auto auto;
+	left: 0;
+	right: 0;
+	padding: 0;
+	background: #FFF;
+}
+
+#signup_container {
+	width: 100%;
+	margin-top: 30px;
+	padding: 0 calc(50% - 540px);
+	background: #efefef;
+}
+
+#signup_container #profile_right {
+	padding-left: 95px;
+	padding-bottom: 40px;
+}
+
+#signup_container #profile_right h2{
+	margin: 25px 0 40px;
+	border-bottom: none;
+	padding-left: 0;
+	color: #e83322;
+	position: relative;
+	font-size: 1.8rem ;
+}
+
+#signup_container #profile_right h2 div{
+	background: #efefef;
+	width: 100px;
+}
+
+#signup_container #profile_right h2::after{
+	border-top: 1px solid currentColor;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 110px;
+	margin: auto;
+	width: calc(100% - 110px);
+	height: 1px;
+	position: absolute;
+	content: '';
+}	
+
+
+footer {
+  background-color: #ffffff;
+  background-image: url("/images/nav_logo.png");
+  background-position: calc(50% + 540px - 90px) center;
+  background-repeat: no-repeat;
+  background-size: auto 15px;
+  height: 45px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+
+  clear: both;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -10489,7 +10610,8 @@ body {
   background: url("/images/index_bg.png") no-repeat fixed;  
   background-size: cover;
   font-family: "niveau-grotesk","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-    font-weight: 500;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 #index-header{
 	background: rgba(24,7,77,0.8);
@@ -10532,7 +10654,7 @@ body {
 #triangle {
     background: rgba(0, 0, 0, 0) url("/images/main_triangle.png") repeat scroll 0 0 / cover ;
     height: 13px;
-    margin-top: 30px;
+    margin: 30px auto 0;
     width: 30px;
 }
 .count {
@@ -10549,12 +10671,16 @@ body {
 #page1 {
 	background-color: #EFEFF0;
 	line-height: 2.5;
+	overflow-x:hidden;
 }
 #page1 h3 {
 	position: relative;
 	width: 100%;
 	text-align: center;
 	height: 50px;
+}
+#page1 p {
+	text-align: center;
 }
 
 #page1 h3::before {
@@ -10573,7 +10699,7 @@ body {
 }
 
 #page1 h3 div {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -10595,14 +10721,15 @@ body {
 }
 
 #page1 ul li {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	width: 46%;
+	line-height: 49px;
 	display: flex;
 	color: #B65338;
 	border: 2px solid #B65338;
 	margin: 10px 2%;
-	padding: 10px 2%;
+	padding: 10px 2% 10px 75px;
 	align-items: center;
 	justify-content: center;
 	position: relative;
@@ -10704,6 +10831,10 @@ body {
 	color: #FFFFFF;
 	background-color: #595656;
 }
+#page3 h3, #page3 h2{
+	color: #FFFFFF;
+	background-color: #595656;
+}
 
 #page3 ul.faq_box {
 	padding-left: 0;
@@ -10788,6 +10919,11 @@ body {
 .hide {
 	display: none;
 	}
+.sign-in-button{
+	background-color: #eee; 
+	color: #180477;
+	padding: 5px 20px
+}
 #page5 {
 	background: url("/images/notice_bg.png") #595656;
 	background-size: cover;

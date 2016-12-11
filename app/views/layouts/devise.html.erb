@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) : "SAM" %></title>
+
+    <%= stylesheet_link_tag    "session" %>
+    <%= stylesheet_link_tag    "sam" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= javascript_include_tag 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body class="session-body" >
+
+    <%= render "layouts/session_header" %>
+
+    <%= render "layouts/alerts" %>
+    <%= yield %>
+     
+   
+    <footer >
+      
+    </footer>
+  </body>
+</html>
