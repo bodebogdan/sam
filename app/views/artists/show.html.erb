@@ -1,5 +1,4 @@
 
-<div class="container">
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -21,11 +20,7 @@
   <strong>Phone number:</strong>
   <%= @artist.phone_number %>
 </p>
-<p>
-  <strong>Details:</strong>
-  <%= @artist.details %>
-</p>
-</div>
+
 
 <%= link_to 'Edit', edit_artist_path(@artist) %> |
 <%= link_to 'Back', artists_path %>
