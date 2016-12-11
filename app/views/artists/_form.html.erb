@@ -1,3 +1,4 @@
+<div class="container">
 <%= form_for(@artist) do |f| %>
   <% if @artist.errors.any? %>
     <div id="error_explanation">
@@ -27,7 +28,12 @@
     <%= f.label :phone_number %><br>
     <%= f.text_field :phone_number %>
   </div>
+  <div class="field">
+    <%= f.label :details %><br>
+    <%= f.text_field :details %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
+</div>

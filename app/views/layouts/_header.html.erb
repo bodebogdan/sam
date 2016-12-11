@@ -16,10 +16,15 @@
           <div id="index-color">
             <section class="top-bar-section" >
               <ul id="index-color" class="right" >
+                <% if user_signed_in? %>
+                  <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+                <% else %>
                 <li><%=link_to "Login", new_user_session_path %></li>
+                
+                <%end%>          
                 <li><%=link_to "WHAT'S SAM", "#" %></li>
                 <li><%=link_to "Artist Sign Up", new_user_registration_path %></li>
-                <li><%=link_to "Pick Up Artist", pua_path %></li>          
+                <li><%=link_to "Pick Up Artist", pua_path %></li>
               </ul>
             </section>
           </div>

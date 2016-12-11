@@ -313,7 +313,7 @@ body {
 	}
 
 .artist_form {
-	height: 280px;
+	height: 480px;
 	}
 
 #artist_register{
@@ -379,4 +379,13 @@ body {
     background-size: auto 15px;
     height: 60px;
     width: 100%;
+}
+.alert-box{
+	top:0;
+	left:0;
+	width: 100%;
+	position: absolute;
+}
+.alert-box .close{
+	z-index: 100;
 }
