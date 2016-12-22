@@ -20,10 +20,10 @@
   $(document).ready(function() {
   	if ($('.carousel .owl-wrapper-outer').length === 0) {
 	  var owl = $('.carousel').owlCarousel({
-	    items:5,
+	    items:7,
 	    loop:true,
 	    margin:10,
-	    autoPlay:1000,
+	    autoPlay:1800,
     	autoplayHoverPause:true,
     	responsive: true,
     	responsiveRefreshRate : 200,
@@ -32,7 +32,7 @@
       $('.carousel').hover(function() {
       owl.trigger('owl.stop');
     }, function(){
-    	owl.trigger('owl.play', 1000);
+    	owl.trigger('owl.play', 1800);
     });
     }
     $(window).scroll(function (){

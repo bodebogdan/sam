@@ -67,26 +67,31 @@
 </div>
 <div id="page2">
   <div id="main-content" class="row full-min-height">
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Artists</h1>
 
 
-<h4 class="column">Featured Artists</h4>
+<div class="pua">
+  <h1><img src="images/pickup.png" alt="Pick Up Artist"></h1>
+</div>
+
+
+
 <div class="carousel">
    <%  @artists.each do |artist| %>
        <div class="artist-card ">
           <%= link_to artist, class: "poster" do %>
             <%= image_tag artist.image.url(:thumb) %>
           <% end %>
-          <div class="artist-info ell glassy-bg padmy padlx">
-            <div class="artist-card ">
+          <div class="artist-info ell artist-background padmy padlx">
               <h6><%= artist.name %> <span>(<%= artist.instrument %>)</span></h6>
-            </div>            
+                       
           </div>
         </div>
     <% end %>
 </div>
+<div class="pua">
+  <a href="pua"><img src="images/pickup_more.png" alt="Pick Up Artist"></a>
+</div>
+
 <br>
 
  </div>
@@ -213,6 +218,8 @@
      <a href="">More >></a>
      </p>
     </div>
+    <div class="pua">
     <img src="images/pickup_more.png" alt="more">
+   </div>
    </div>
   </div>

@@ -2,13 +2,15 @@
 .artist-grid {
   .artist-card {
     margin:auto;
+    border: 5px 15px 5px 15px solid rgba(255,255,255,0.3);
     .poster img {
       height: 200;
       width:auto;
+
     }
     .artist-info {
-
-       max-width: 150px!important;
+      background: rgba(0, 0, 0, 0) linear-gradient(to right, #18074d 0%, #3b4d9f 30%, #18074d 100%) repeat scroll 0 0;
+      max-width: 150px!important;
       .title { height: 4em; }
     }
   }

@@ -53,7 +53,7 @@
   <%= render "layouts/alerts" %>
 
 <div class="container">
-  <h4 class="column">Featured Artists</h4>
+  <h4 class="pua"><img src="images/pickup.png"></h4>
   <div class="column">
     <ul class="artist-grid no-bullet row">
        <%  @artists.each do |artist| %>
@@ -62,10 +62,9 @@
             <%= link_to artist, class: "poster" do %>
               <%= image_tag artist.image.url(:thumb) %>
             <% end %>
-            <div class="artist-info ell glassy-bg padmy padlx">
-              <div class="artist-card ">
-                <h6><%= artist.name %> <span>(<%= artist.instrument %>)</span></h6>
-              </div>            
+            <div class="artist-info ell artist-background padmy padlx">
+               <h6><%= artist.name %> <span>(<%= artist.instrument %>)</span></h6>
+                          
             </div>
           </div>
           </li>
