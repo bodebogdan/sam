@@ -141,6 +141,7 @@ body {
 	margin: 10px 2%;
 	padding: 10px 2% 10px 75px;
 	align-items: center;
+	text-align: center;
 	justify-content: center;
 	position: relative;
 }
@@ -311,7 +312,13 @@ body {
 	padding: 2px 10px;
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	}
-
+#page4 button{
+	background-color: transparent;
+    border: medium none;
+    cursor: pointer;
+    outline: medium none;
+    padding: 0;
+}
 .artist_form {
 	height: 480px;
 	}
