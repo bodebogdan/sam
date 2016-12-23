@@ -23,7 +23,11 @@
                 
                 <%end%>          
                 <li><%=link_to "WHAT'S SAM", "#" %></li>
+                <% if user_signed_in? %>
+                  <li> <%= link_to current_user.email, user_path(current_user) %></li>
+                  <% else %>
                 <li><%=link_to "Artist Sign Up", new_user_registration_path %></li>
+                <% end %>
                 <li><%=link_to "Pick Up Artist", pua_path %></li>
               </ul>
             </section>

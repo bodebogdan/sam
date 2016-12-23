@@ -426,3 +426,7 @@ html {
 .pua-more{
 	background-image: url("images/more.png" alt="MORE");
 }
+
+.carousel html{
+	font-size: 7 !important;
+}
