@@ -7,7 +7,7 @@
   background: rgba(0, 0, 0, 0) linear-gradient(to right, #18074d 0%, #3b4d9f 30%, #18074d 100%) repeat scroll 0 0;
   font-family: "niveau-grotesk","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 #index-header{
   background: rgba(24,7,77,0.8);
@@ -15,6 +15,13 @@
 }
 #index-color{
   background: rgba(24,7,77,0);
+
+}
+.top-bar-section {
+	font-weight: 800;
+}
+.title-area{
+	margin:6px 0 0 -3px!important;
 }
 .sam-nav{
   position: fixed;
@@ -86,6 +93,5 @@ footer {
   width: 100%;
   bottom: 0;
   position: fixed;
-
   clear: both;
 }
