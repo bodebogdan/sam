@@ -58,5 +58,15 @@ $(function(){
 		$(target).removeClass('hide');
 	});
 });
+$(function(){
+    "use strict";
+	var profile_left = $('#profile_left ul li div');
+	var profile_right = $('.profile_info');
+	profile_left.on('click', function(){
+		var target = $(this).attr("href");
+		profile_right.addClass('hide');
+		$(target).removeClass('hide');
+	});
+});
 
 

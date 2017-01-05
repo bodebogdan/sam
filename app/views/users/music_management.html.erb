@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) : "SAM" %></title>
+
+    <%= stylesheet_link_tag    "session" %>
+    <%= stylesheet_link_tag    "sam" %>
+    <%= stylesheet_link_tag    "profile" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= javascript_include_tag 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body class="session-body" >
+ 
+ <%= render "layouts/session_header" %>
+ 
+ <div id="profile_container">
+  <nav id="profile_left">
+   <ul>
+    <li><a href="../mypage.html" target="_blank"><img src="img/prev.png" alt="Preview"></a></li>
+    <li><a href="profile_settings.html">Profile Settings</a></li>
+    <li><a href="account_settings.html">Account Settings</a></li>
+    <li class="now"><a href="music_management.html">Music Management</a></li>
+    <li><a href="money_management.html">Money Management</a></li>
+    <li><a href="event_management,html">Event Management</a></li>
+    <li><a href="entry_contest.html">Entry Contest</a></li>
+    <li><a href="email_magazine,html">E-mail Magazine</a></li>
+    <li><a href="premium.html">Premium</a></li>
+    <li>
+     <a>Help</a>
+     <a>Logout</a>
+    </li>
+   </ul>
+  </nav>
+  
+  <div id="profile_right">
+   <h2 style="background-image: url(img/menu_music.png)">Music Management</h2>
+   <div id="setup" class="setup_vertical">
+    <div class="setup_item">
+     <span>Title</span>
+     <input type="text" name="name" value="" size="60" placeholder="">
+    </div>
+    <div class="setup_item">
+     <span>Upload File</span>
+     <input type="file" name="name" value="" size="60">
+    </div>
+    <div class="setup_item">
+     <span>Music Image</span>
+     <input type="file" name="name" value="" size="60">
+    </div>
+    <div class="setup_item">
+     <span>Description</span>
+     <textarea name="example" rows="10"></textarea>
+    </div>
+   </div>
+  </div>
+ </div>
+
+  <footer>
+  </footer>
+</body>
+</html>
